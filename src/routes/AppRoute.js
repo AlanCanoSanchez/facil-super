@@ -14,7 +14,7 @@ export const AppRoute = () => {
           
             <Routes>
 
-                <Route path="/login" element={
+                <Route path="facil-super/login" element={
                     <PublicRoute>
                         <LoginScreen/>
                     </PublicRoute>
@@ -22,14 +22,14 @@ export const AppRoute = () => {
                 />         
 
 
-                <Route path="/home" element={
+                <Route path="facil-super/home" element={
                     <PrivateRoute>
                         <HomeScreen/>
                     </PrivateRoute>
                     }
                 />
 
-                <Route path="/" element={
+                <Route path="facil-super/" element={
                     <PublicRoute>
                         <LoginScreen/>
                     </PublicRoute>
