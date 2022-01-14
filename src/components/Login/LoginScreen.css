@@ -1,0 +1,26 @@
+
+.classname-color{
+
+    background-color: #94f5d5;
+
+}
+
+.card-border {
+
+    border-radius: 1rem;
+    width: 1300px;
+    border-color: black;
+    height: 600px;
+
+
+}
+
+.img-border {
+
+    border-radius: 1rem;
+    height: 37.5rem;
+}
+
+.boton {
+    padding: 0.5rem 10.5em;
+}

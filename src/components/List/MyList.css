@@ -1,0 +1,32 @@
+
+.my-list {
+    padding: 50px;
+}
+
+.button-submit {
+    padding: 0.5rem 14rem;
+}
+
+.fond-product {
+    background-color: #94f5d5;
+}
+
+.font-product-cost {
+    font-style: italic;
+    font-size:medium;
+}
+
+.font-product-product {
+    font-size:large;
+}
+
+.button-complete {
+    background-color: rgb(5, 117, 24);
+    border-color: rgb(5, 117, 24);
+
+}
+
+.complete {
+    color: darkgreen;
+    font-size: 0.7cm;
+}
