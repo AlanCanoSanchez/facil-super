@@ -10,7 +10,7 @@ import { PublicRoute } from './PublicRoute';
 export const AppRoute = () => {
     return (
 
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           
             <Routes>
 
