@@ -14,7 +14,7 @@ export const AppRoute = () => {
           
             <Routes>
 
-                <Route path="alancanosanchez.github.io/facil-super/login" element={
+                <Route path="/login" element={
                     <PublicRoute>
                         <LoginScreen/>
                     </PublicRoute>
@@ -22,14 +22,14 @@ export const AppRoute = () => {
                 />         
 
 
-                <Route path="alancanosanchez.github.io/facil-super/home" element={
+                <Route path="/home" element={
                     <PrivateRoute>
                         <HomeScreen/>
                     </PrivateRoute>
                     }
                 />
 
-                <Route path="alancanosanchez.github.io/facil-super/" element={
+                <Route path="/" element={
                     <PublicRoute>
                         <LoginScreen/>
                     </PublicRoute>
