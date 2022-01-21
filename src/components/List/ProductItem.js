@@ -14,6 +14,10 @@ export const ProductItem = ({product,index,handleDelete,handleComplete,handleEdi
         costo:product.cos
     });
 
+
+    
+    console.log('Hola mundo');
+
     const handleSubmit = (e) => {
         // evistar el refresh del formulario
         e.preventDefault();
